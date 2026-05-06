@@ -9,11 +9,11 @@ O projeto foi construído utilizando **Entity Framework Core** para persistênci
 
 ## 🛠️ Componentes e Tecnologias Utilizadas
 *   **Linguagem:** C#
-*   **Framework:** .NET 8.0 (ou a versão que você estiver usando)
+*   **Framework:** .NET 8.0
 *   **ORM:** Entity Framework Core
 *   **Banco de Dados:** Oracle SQL
 *   **Documentação:** Swagger (OpenAPI)
-*   **Ferramentas:** Visual Studio 2022 ou VS Code
+*   **Ferramentas:** Visual Studio 2022
 
 ---
 
