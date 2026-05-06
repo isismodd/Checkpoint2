@@ -12,7 +12,7 @@ namespace LocadoraAPI.Controllers
     {
         private readonly ApplicationContext _context;
 
-        // CONSTRUTOR CORRIGIDO
+       
         public ClienteController(ApplicationContext context)
         {
             _context = context;
