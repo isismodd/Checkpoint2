@@ -89,7 +89,7 @@ URL: https://localhost:7211/api/Jogo/10/alugar/1
 
 ---
 👨‍💻 Autores
-Isis Macedo e Andrade - RM561497 - Turma 2TDSR
-Ana Clara de Oliveira Nascimento | RM 561957 - Turma 2TDSR
-Pedro Mariutti | RM 75999 - Turma 2TDSR
-Rafael Carvalho Meireles | RM 563413 - Turma 2TDSR
+* Isis Macedo e Andrade - RM561497 - Turma 2TDSR
+* Ana Clara de Oliveira Nascimento | RM 561957 - Turma 2TDSR
+* Pedro Mariutti | RM 75999 - Turma 2TDSR
+* Rafael Carvalho Meireles | RM 563413 - Turma 2TDSR
