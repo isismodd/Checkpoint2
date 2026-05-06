@@ -1,9 +1,20 @@
+using Checkpoint2.Data;
+using Microsoft.EntityFrameworkCore;
+using Oracle.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// 1. Configuração do Oracle
+// Busca a string de conexão definida no appsettings.json
+var connectionString = builder.Configuration.GetConnectionString("OracleDbConnection");
 
+// 2. Registro do Contexto do Banco de Dados
+builder.Services.AddDbContext<ApplicationContext>(options =>
+    options.UseOracle(connectionString));
+
+// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

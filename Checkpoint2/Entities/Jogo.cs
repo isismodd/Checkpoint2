@@ -15,5 +15,7 @@ namespace Checkpoint2.Entities
         public decimal PrecoLocacao { get; set; }
 
         public bool Disponivel { get; set; } = true;
+
+        public int? ClienteId { get; set; }
     }
 }
